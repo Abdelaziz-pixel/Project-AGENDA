@@ -10,7 +10,8 @@ if __name__ == "__main__":
             test = Event()
             test.create_event()
         if Choice == "S":
-            pass
+            test = Event()
+            test.delete_event()
         if Choice == "Q":
             exit()
         

@@ -24,3 +24,14 @@ class Event():
         self.choice.cursor.execute("INSERT INTO Agenda(title, date, hour, description) VALUES (%s, %s, %s, %s)",(self.title,self.date,self.hour,self.description))
         self.choice.connection.commit()
         self.choice.close_connection()
+
+    def delete_event(self):
+        self.choice.initialize_connection()
+        self.date = input("À quel date à eu lieu l'évènement ? ")
+        self.hour = input("À quel heure à eu lieu l'évèvement ? ")
+
+        self.choice.cursor.execute("DELETE FROM Agenda WHERE date=%s AND hour=%s;",(self.date,self.hour,))
+        self.choice.connection.commit()
+        self.choice.close_connection()
+
+        
