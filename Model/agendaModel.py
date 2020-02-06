@@ -1,6 +1,6 @@
 from Model.connection import *
 
-class CreateRDV():
+class Event():
 
     def __init__(self):
         self.choice = connection()
@@ -9,9 +9,9 @@ class CreateRDV():
         self.hour = None
         self.description = None
 
-    def create_rdv(self):
+    def create_event(self):
         print("--------------------------------------------------------------------------")
-        print("Bienvenu sur l'Agenda, nous allons procéder à l'ajout de votre événements!")
+        print("Bienvenu sur l'Agenda, nous allons procéder à l'ajout de votre événement!")
         print("--------------------------------------------------------------------------")
 
         self.choice.initialize_connection()

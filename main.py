@@ -5,10 +5,12 @@ if __name__ == "__main__":
     Choice=""
 
     while Choice != 'q':
-        Choice = input("Que souhaitez vous faire ?\nCréer un événement [C]\nSupprimer un évènement [S]").upper()
+        Choice = input("Créer un événement [C]\nSupprimer un évènement [S]\nQue souhaitez vous faire ?").upper()
         if Choice == "C":
-            test = CreateRDV()
-            test.create_rdv()
+            test = Event()
+            test.create_event()
+        if Choice == "S":
+            pass
         if Choice == "Q":
             exit()
         
