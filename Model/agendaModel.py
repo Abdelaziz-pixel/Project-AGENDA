@@ -47,6 +47,13 @@ class Event():
             self.choice.connection.commit()
             self.choice.close_connection()
 
+    def read_event(self):
+        self.choice.initialize_connection()
+        self.choice.cursor.execute("SELECT * FROM Agenda;")
+        test = self.choice.cursor.fetchall()
+        self.choice.close_connection()
+        print(test)
+
         
         
 
