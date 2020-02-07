@@ -34,4 +34,19 @@ class Event():
         self.choice.connection.commit()
         self.choice.close_connection()
 
+    def update_event(self):
+        self.choice.initialize_connection()
+        column = ""
+        while column not in ["title, date, hour, description"]:
+            column = input("{title, date, hour, description}\nQue souhaitez-vous modifier ?")
+            datta = input("Entrer la nouvelle information:")
+            self.date = input("Entrer la date du rendez-vous:")
+            self.hour = input("Entrer l'heure du rendez-vous:")
+            self.choice.initialize_connection()
+            self.choice.cursor.execute("UPDATE Agenda set " + column + " = %s WHERE date = %s AND hour = %s;", (datta, self.date, self.hour,))
+            self.choice.connection.commit()
+            self.choice.close_connection()
+
         
+        
+
