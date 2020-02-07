@@ -10,15 +10,6 @@ class Loginview():
         self.month = None
         self.year = None
 
-
-    
-    # def read(self):
-    #     self.choice.initialize_connection()
-    #     self.choice.cursor.execute("SELECT * FROM Agenda;")
-    #     test = self.choice.cursor.fetchall()
-    #     self.choice.close_connection()
-    #     return test
-
     def monthcurrent(self):
         locale.setlocale(locale.LC_ALL, 'fr_FR.UTF-8')
         year = datetime.datetime.today().year
