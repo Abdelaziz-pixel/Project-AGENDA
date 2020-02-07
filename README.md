@@ -9,10 +9,10 @@ Elle voudrait utiliser cette dernière technologie dont tout le monde parle : l'
 
 Spécifications fonctionnelles :
 
-    - La page d'accueil affiche la date du jour et le calendrier du mois en cours- L'utilisateur peut voir le calendrier du         mois suivant et du mois précédent.
-    - L'utilisateur peut voir tous les événements d'une date précise- L'utilisateur peut annuler (supprimer) un événement           enregistré dans l'agenda.
-    - L'utilisateur peut ajouter un événement dans l'agenda- L'utilisateur peut modifier les caractéristiques d'un événement        déjà enregistré dans l'agenda.
-    - Deux événements ne peuvent pas avoir lieu le même jour à la même heure- Un événement est composé obligatoirement d'un         titre, d'une date, d'une heure et éventuellement d'une description.
+    - La page d'accueil affiche la date du jour et le calendrier du mois en cours- L'utilisateur peut voir le calendrier du   mois suivant et du mois précédent.
+    - L'utilisateur peut voir tous les événements d'une date précise- L'utilisateur peut annuler (supprimer) un événement       enregistré dans l'agenda.
+    - L'utilisateur peut ajouter un événement dans l'agenda- L'utilisateur peut modifier les caractéristiques d'un événement   déjà enregistré dans l'agenda.
+    - Deux événements ne peuvent pas avoir lieu le même jour à la même heure- Un événement est composé obligatoirement d'un     titre, d'une date, d'une heure et éventuellement d'une description.
     
 Spécifications techniques :
 
