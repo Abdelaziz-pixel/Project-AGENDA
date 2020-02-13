@@ -1,7 +1,7 @@
 ![alt tag](https://www.ville-mordelles.fr/medias/2015/02/agenda-1.jpg)
 
 
-Projet à rendre:
+# Projet à rendre:
 
 Développeur freelance, vous avez été contacté par Madame Derieux, médecin généraliste qui a besoin de vos services. Madame Derieux est très occupée entre son métier et ses nombreuses activités. Elle a souvent des difficultés à gérer son agenda et son emploi du temps. Comme tous les scientifiques, elle est tournée vers les nouvelles technologies et voudrait quelque chose de plus performant qu'un agenda papier. 
 
